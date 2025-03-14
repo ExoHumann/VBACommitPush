@@ -1,0 +1,186 @@
+[
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "Comment",
+      "Comment"
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "Deck Stations",
+      "Deck Stations"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "NCS": [
+      "",
+      ""
+    ],
+    "Material_Conc": [
+      "",
+      ""
+    ],
+    "Material_Reinf": [
+      "",
+      ""
+    ],
+    "JSON_name": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "#REFERENCE!",
+      "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Type]&c_,  k_1,a&\"MaSName\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@NCS]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"\",\"\",'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"Comment\",\"!*!Label - \"&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name],'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]<>\"\",IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
+    ]
+  },
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Deck",
+      "Deck"
+    ],
+    "Description": [
+      "Deck CSB",
+      "Deck CSB"
+    ],
+    "Name": [
+      "Dck_CSB",
+      "Dck_CSB"
+    ],
+    "InActive": [
+      "X",
+      "X"
+    ],
+    "NCS": [
+      100,
+      100
+    ],
+    "Material_Conc": [
+      100,
+      100
+    ],
+    "Material_Reinf": [
+      200,
+      200
+    ],
+    "JSON_name": [
+      "example-section-thinWalled.json",
+      "example-section-thinWalled.json"
+    ],
+    "SofiCode": [
+      "#REFERENCE!",
+      "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Type]&c_,  k_1,a&\"MaSName\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@NCS]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"\",\"\",'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"Comment\",\"!*!Label - \"&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name],'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]<>\"\",IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "NCS": [
+      200,
+      200
+    ],
+    "Material_Conc": [
+      100,
+      100
+    ],
+    "Material_Reinf": [
+      200,
+      200
+    ],
+    "JSON_name": [
+      "KBB_DeckSection.json",
+      "KBB_DeckSection.json"
+    ],
+    "SofiCode": [
+      "#REFERENCE!",
+      "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Type]&c_,  k_1,a&\"MaSName\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@NCS]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"\",\"\",'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"Comment\",\"!*!Label - \"&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name],'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]<>\"\",IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "NCS": [
+      300,
+      300
+    ],
+    "Material_Conc": [
+      100,
+      100
+    ],
+    "Material_Reinf": [
+      200,
+      200
+    ],
+    "JSON_name": [
+      "KBB_DeckSection.json",
+      "KBB_DeckSection.json"
+    ],
+    "SofiCode": [
+      "#REFERENCE!",
+      "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Type]&c_,  k_1,a&\"MaSName\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@NCS]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"\",\"\",'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"Comment\",\"!*!Label - \"&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name],'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]<>\"\",IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
+    ]
+  }
+]
