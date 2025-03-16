@@ -1,7 +1,7 @@
 [
   {
     "No": [
-      "testRCZ",
+      "",
       ""
     ],
     "Class": [
@@ -41,7 +41,7 @@
       ""
     ],
     "SofiCode": [
-      "#REF!",
+      "#REFERENCE!",
       "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Type]&c_,  k_1,a&\"MaSName\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@NCS]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"\",\"\",'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"Comment\",\"!*!Label - \"&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name],'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]<>\"\",IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
     ]
   },
@@ -87,7 +87,7 @@
       "example-section-thinWalled.json"
     ],
     "SofiCode": [
-      "#REF!",
+      "#REFERENCE!",
       "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Type]&c_,  k_1,a&\"MaSName\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@NCS]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"\",\"\",'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"Comment\",\"!*!Label - \"&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name],'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]<>\"\",IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
     ]
   },
@@ -133,7 +133,7 @@
       "KBB_DeckSection.json"
     ],
     "SofiCode": [
-      "#REF!",
+      "#REFERENCE!",
       "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Type]&c_,  k_1,a&\"MaSName\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@NCS]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"\",\"\",'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"Comment\",\"!*!Label - \"&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name],'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]<>\"\",IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
     ]
   },
@@ -179,7 +179,7 @@
       "KBB_DeckSection.json"
     ],
     "SofiCode": [
-      "#REF!",
+      "#REFERENCE!",
       "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Type]&c_,  k_1,a&\"MaSName\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@NCS]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"\",\"\",'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]=\"Comment\",\"!*!Label - \"&'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Name],'SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@Class]<>\"\",IF('SPOT_EXCEL_dla_krzysia_v2 (version 1).xlsb'!CrossSection[@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
     ]
   }
