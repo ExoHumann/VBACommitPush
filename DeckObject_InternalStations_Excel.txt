@@ -1,0 +1,582 @@
+[
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "Comment",
+      "Comment"
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "Deck Stations",
+      "Deck Stations"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "",
+      ""
+    ],
+    "Station_Idp": [
+      "",
+      ""
+    ],
+    "GaxpIdp": [
+      "",
+      ""
+    ],
+    "Station": [
+      "",
+      ""
+    ],
+    "NCS": [
+      "",
+      ""
+    ],
+    "Grp_Offset": [
+      "",
+      ""
+    ],
+    "RotaX": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "!*!Label - Deck Stations",
+      "|==|LET(\na,\";STO#\",\nb,\"(#n) \",\nc,\" \",\nb_,\"(#n) '\",\nc_,\"'\",\n\nkd_2,IF([@InActive]=\"\",\" \",\"'x'\"),\nkd_7,IF(#REF!=\"\",0,#REF!),\nkd_8,IF([@Station]=\"\",0,[@Station]),\nkd_9,IF(#REF!=\"\",0,#REF!),\n\nk_0,a&\"MaSType\"&b_&[@Type]&c_,\nk_1,a&\"MaSName\"&b_&[@Name]&c_,\nk_2,a&\"MaSInAc\"&b_&kd_2&c_,\nk_3,a&\"MaSAxis\"&b_&[@GaxpIdp]&c_,\nk_4,a&\"MaSIdp\"&b_&#REF!&c_,\nk_5,a&\"MaSStat\"&b&#REF!&c,\nk_6,a&\"MaSGaxType\"&b_&#REF!&c_,\nk_7,a&\"MaSNcs\"&b&kd_7&c,\nk_8,a&\"MaSPAlfz\"&b&kd_8&c,\nk_9,a&\"MaSGrpOffset\"&b&kd_9&c,\n\n\nr_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,\n\n\nresult,\"let#n #n+1\" & r_1,\nIFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))\n)"
+    ]
+  },
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "DeckObject",
+      "DeckObject"
+    ],
+    "Type": [
+      "Deck",
+      "Deck"
+    ],
+    "Description": [
+      "Deck CSB",
+      "Deck CSB"
+    ],
+    "Name": [
+      "Dck_CSB",
+      "Dck_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "AX",
+      "AX"
+    ],
+    "Station_Idp": [
+      "",
+      ""
+    ],
+    "GaxpIdp": [
+      "DB",
+      "DB"
+    ],
+    "Station": [
+      500,
+      500
+    ],
+    "NCS": [
+      10,
+      10
+    ],
+    "Grp_Offset": [
+      1,
+      1
+    ],
+    "RotaX": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "#REFERENCE!",
+      "|==|LET(\na,\";STO#\",\nb,\"(#n) \",\nc,\" \",\nb_,\"(#n) '\",\nc_,\"'\",\n\nkd_2,IF([@InActive]=\"\",\" \",\"'x'\"),\nkd_7,IF(#REF!=\"\",0,#REF!),\nkd_8,IF([@Station]=\"\",0,[@Station]),\nkd_9,IF(#REF!=\"\",0,#REF!),\n\nk_0,a&\"MaSType\"&b_&[@Type]&c_,\nk_1,a&\"MaSName\"&b_&[@Name]&c_,\nk_2,a&\"MaSInAc\"&b_&kd_2&c_,\nk_3,a&\"MaSAxis\"&b_&[@GaxpIdp]&c_,\nk_4,a&\"MaSIdp\"&b_&#REF!&c_,\nk_5,a&\"MaSStat\"&b&#REF!&c,\nk_6,a&\"MaSGaxType\"&b_&#REF!&c_,\nk_7,a&\"MaSNcs\"&b&kd_7&c,\nk_8,a&\"MaSPAlfz\"&b&kd_8&c,\nk_9,a&\"MaSGrpOffset\"&b&kd_9&c,\n\n\nr_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,\n\n\nresult,\"let#n #n+1\" & r_1,\nIFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))\n)"
+    ]
+  },
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "DeckObject",
+      "DeckObject"
+    ],
+    "Type": [
+      "Deck",
+      "Deck"
+    ],
+    "Description": [
+      "Deck CSB",
+      "Deck CSB"
+    ],
+    "Name": [
+      "Dck_CSB",
+      "Dck_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "AX",
+      "AX"
+    ],
+    "Station_Idp": [
+      "",
+      ""
+    ],
+    "GaxpIdp": [
+      "PI6",
+      "PI6"
+    ],
+    "Station": [
+      700,
+      700
+    ],
+    "NCS": [
+      10,
+      10
+    ],
+    "Grp_Offset": [
+      2,
+      2
+    ],
+    "RotaX": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "#REFERENCE!",
+      "|==|LET(\na,\";STO#\",\nb,\"(#n) \",\nc,\" \",\nb_,\"(#n) '\",\nc_,\"'\",\n\nkd_2,IF([@InActive]=\"\",\" \",\"'x'\"),\nkd_7,IF(#REF!=\"\",0,#REF!),\nkd_8,IF([@Station]=\"\",0,[@Station]),\nkd_9,IF(#REF!=\"\",0,#REF!),\n\nk_0,a&\"MaSType\"&b_&[@Type]&c_,\nk_1,a&\"MaSName\"&b_&[@Name]&c_,\nk_2,a&\"MaSInAc\"&b_&kd_2&c_,\nk_3,a&\"MaSAxis\"&b_&[@GaxpIdp]&c_,\nk_4,a&\"MaSIdp\"&b_&#REF!&c_,\nk_5,a&\"MaSStat\"&b&#REF!&c,\nk_6,a&\"MaSGaxType\"&b_&#REF!&c_,\nk_7,a&\"MaSNcs\"&b&kd_7&c,\nk_8,a&\"MaSPAlfz\"&b&kd_8&c,\nk_9,a&\"MaSGrpOffset\"&b&kd_9&c,\n\n\nr_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,\n\n\nresult,\"let#n #n+1\" & r_1,\nIFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))\n)"
+    ]
+  },
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "DeckObject",
+      "DeckObject"
+    ],
+    "Type": [
+      "Deck",
+      "Deck"
+    ],
+    "Description": [
+      "Deck CSB",
+      "Deck CSB"
+    ],
+    "Name": [
+      "Dck_CSB",
+      "Dck_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "AX",
+      "AX"
+    ],
+    "Station_Idp": [
+      "",
+      ""
+    ],
+    "GaxpIdp": [
+      "DE",
+      "DE"
+    ],
+    "Station": [
+      900,
+      900
+    ],
+    "NCS": [
+      20,
+      20
+    ],
+    "Grp_Offset": [
+      3,
+      3
+    ],
+    "RotaX": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "#REFERENCE!",
+      "|==|LET(\na,\";STO#\",\nb,\"(#n) \",\nc,\" \",\nb_,\"(#n) '\",\nc_,\"'\",\n\nkd_2,IF([@InActive]=\"\",\" \",\"'x'\"),\nkd_7,IF(#REF!=\"\",0,#REF!),\nkd_8,IF([@Station]=\"\",0,[@Station]),\nkd_9,IF(#REF!=\"\",0,#REF!),\n\nk_0,a&\"MaSType\"&b_&[@Type]&c_,\nk_1,a&\"MaSName\"&b_&[@Name]&c_,\nk_2,a&\"MaSInAc\"&b_&kd_2&c_,\nk_3,a&\"MaSAxis\"&b_&[@GaxpIdp]&c_,\nk_4,a&\"MaSIdp\"&b_&#REF!&c_,\nk_5,a&\"MaSStat\"&b&#REF!&c,\nk_6,a&\"MaSGaxType\"&b_&#REF!&c_,\nk_7,a&\"MaSNcs\"&b&kd_7&c,\nk_8,a&\"MaSPAlfz\"&b&kd_8&c,\nk_9,a&\"MaSGrpOffset\"&b&kd_9&c,\n\n\nr_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,\n\n\nresult,\"let#n #n+1\" & r_1,\nIFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))\n)"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "",
+      ""
+    ],
+    "Station_Idp": [
+      "",
+      ""
+    ],
+    "GaxpIdp": [
+      "",
+      ""
+    ],
+    "Station": [
+      "",
+      ""
+    ],
+    "NCS": [
+      "",
+      ""
+    ],
+    "Grp_Offset": [
+      "",
+      ""
+    ],
+    "RotaX": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      "|==|LET(\na,\";STO#\",\nb,\"(#n) \",\nc,\" \",\nb_,\"(#n) '\",\nc_,\"'\",\n\nkd_2,IF([@InActive]=\"\",\" \",\"'x'\"),\nkd_7,IF(#REF!=\"\",0,#REF!),\nkd_8,IF([@Station]=\"\",0,[@Station]),\nkd_9,IF(#REF!=\"\",0,#REF!),\n\nk_0,a&\"MaSType\"&b_&[@Type]&c_,\nk_1,a&\"MaSName\"&b_&[@Name]&c_,\nk_2,a&\"MaSInAc\"&b_&kd_2&c_,\nk_3,a&\"MaSAxis\"&b_&[@GaxpIdp]&c_,\nk_4,a&\"MaSIdp\"&b_&#REF!&c_,\nk_5,a&\"MaSStat\"&b&#REF!&c,\nk_6,a&\"MaSGaxType\"&b_&#REF!&c_,\nk_7,a&\"MaSNcs\"&b&kd_7&c,\nk_8,a&\"MaSPAlfz\"&b&kd_8&c,\nk_9,a&\"MaSGrpOffset\"&b&kd_9&c,\n\n\nr_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,\n\n\nresult,\"let#n #n+1\" & r_1,\nIFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))\n)"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "",
+      ""
+    ],
+    "Station_Idp": [
+      "",
+      ""
+    ],
+    "GaxpIdp": [
+      "",
+      ""
+    ],
+    "Station": [
+      "",
+      ""
+    ],
+    "NCS": [
+      "",
+      ""
+    ],
+    "Grp_Offset": [
+      "",
+      ""
+    ],
+    "RotaX": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      "|==|LET(\na,\";STO#\",\nb,\"(#n) \",\nc,\" \",\nb_,\"(#n) '\",\nc_,\"'\",\n\nkd_2,IF([@InActive]=\"\",\" \",\"'x'\"),\nkd_7,IF(#REF!=\"\",0,#REF!),\nkd_8,IF([@Station]=\"\",0,[@Station]),\nkd_9,IF(#REF!=\"\",0,#REF!),\n\nk_0,a&\"MaSType\"&b_&[@Type]&c_,\nk_1,a&\"MaSName\"&b_&[@Name]&c_,\nk_2,a&\"MaSInAc\"&b_&kd_2&c_,\nk_3,a&\"MaSAxis\"&b_&[@GaxpIdp]&c_,\nk_4,a&\"MaSIdp\"&b_&#REF!&c_,\nk_5,a&\"MaSStat\"&b&#REF!&c,\nk_6,a&\"MaSGaxType\"&b_&#REF!&c_,\nk_7,a&\"MaSNcs\"&b&kd_7&c,\nk_8,a&\"MaSPAlfz\"&b&kd_8&c,\nk_9,a&\"MaSGrpOffset\"&b&kd_9&c,\n\n\nr_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,\n\n\nresult,\"let#n #n+1\" & r_1,\nIFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))\n)"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "",
+      ""
+    ],
+    "Station_Idp": [
+      "",
+      ""
+    ],
+    "GaxpIdp": [
+      "",
+      ""
+    ],
+    "Station": [
+      "",
+      ""
+    ],
+    "NCS": [
+      "",
+      ""
+    ],
+    "Grp_Offset": [
+      "",
+      ""
+    ],
+    "RotaX": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      "|==|LET(\na,\";STO#\",\nb,\"(#n) \",\nc,\" \",\nb_,\"(#n) '\",\nc_,\"'\",\n\nkd_2,IF([@InActive]=\"\",\" \",\"'x'\"),\nkd_7,IF(#REF!=\"\",0,#REF!),\nkd_8,IF([@Station]=\"\",0,[@Station]),\nkd_9,IF(#REF!=\"\",0,#REF!),\n\nk_0,a&\"MaSType\"&b_&[@Type]&c_,\nk_1,a&\"MaSName\"&b_&[@Name]&c_,\nk_2,a&\"MaSInAc\"&b_&kd_2&c_,\nk_3,a&\"MaSAxis\"&b_&[@GaxpIdp]&c_,\nk_4,a&\"MaSIdp\"&b_&#REF!&c_,\nk_5,a&\"MaSStat\"&b&#REF!&c,\nk_6,a&\"MaSGaxType\"&b_&#REF!&c_,\nk_7,a&\"MaSNcs\"&b&kd_7&c,\nk_8,a&\"MaSPAlfz\"&b&kd_8&c,\nk_9,a&\"MaSGrpOffset\"&b&kd_9&c,\n\n\nr_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,\n\n\nresult,\"let#n #n+1\" & r_1,\nIFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))\n)"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "",
+      ""
+    ],
+    "Station_Idp": [
+      "",
+      ""
+    ],
+    "GaxpIdp": [
+      "",
+      ""
+    ],
+    "Station": [
+      "",
+      ""
+    ],
+    "NCS": [
+      "",
+      ""
+    ],
+    "Grp_Offset": [
+      "",
+      ""
+    ],
+    "RotaX": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      "|==|LET(\na,\";STO#\",\nb,\"(#n) \",\nc,\" \",\nb_,\"(#n) '\",\nc_,\"'\",\n\nkd_2,IF([@InActive]=\"\",\" \",\"'x'\"),\nkd_7,IF(#REF!=\"\",0,#REF!),\nkd_8,IF([@Station]=\"\",0,[@Station]),\nkd_9,IF(#REF!=\"\",0,#REF!),\n\nk_0,a&\"MaSType\"&b_&[@Type]&c_,\nk_1,a&\"MaSName\"&b_&[@Name]&c_,\nk_2,a&\"MaSInAc\"&b_&kd_2&c_,\nk_3,a&\"MaSAxis\"&b_&[@GaxpIdp]&c_,\nk_4,a&\"MaSIdp\"&b_&#REF!&c_,\nk_5,a&\"MaSStat\"&b&#REF!&c,\nk_6,a&\"MaSGaxType\"&b_&#REF!&c_,\nk_7,a&\"MaSNcs\"&b&kd_7&c,\nk_8,a&\"MaSPAlfz\"&b&kd_8&c,\nk_9,a&\"MaSGrpOffset\"&b&kd_9&c,\n\n\nr_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,\n\n\nresult,\"let#n #n+1\" & r_1,\nIFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))\n)"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "",
+      ""
+    ],
+    "Station_Idp": [
+      "",
+      ""
+    ],
+    "GaxpIdp": [
+      "",
+      ""
+    ],
+    "Station": [
+      "",
+      ""
+    ],
+    "NCS": [
+      "",
+      ""
+    ],
+    "Grp_Offset": [
+      "",
+      ""
+    ],
+    "RotaX": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      "|==|LET(\na,\";STO#\",\nb,\"(#n) \",\nc,\" \",\nb_,\"(#n) '\",\nc_,\"'\",\n\nkd_2,IF([@InActive]=\"\",\" \",\"'x'\"),\nkd_7,IF(#REF!=\"\",0,#REF!),\nkd_8,IF([@Station]=\"\",0,[@Station]),\nkd_9,IF(#REF!=\"\",0,#REF!),\n\nk_0,a&\"MaSType\"&b_&[@Type]&c_,\nk_1,a&\"MaSName\"&b_&[@Name]&c_,\nk_2,a&\"MaSInAc\"&b_&kd_2&c_,\nk_3,a&\"MaSAxis\"&b_&[@GaxpIdp]&c_,\nk_4,a&\"MaSIdp\"&b_&#REF!&c_,\nk_5,a&\"MaSStat\"&b&#REF!&c,\nk_6,a&\"MaSGaxType\"&b_&#REF!&c_,\nk_7,a&\"MaSNcs\"&b&kd_7&c,\nk_8,a&\"MaSPAlfz\"&b&kd_8&c,\nk_9,a&\"MaSGrpOffset\"&b&kd_9&c,\n\n\nr_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,\n\n\nresult,\"let#n #n+1\" & r_1,\nIFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))\n)"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "",
+      ""
+    ],
+    "Station_Idp": [
+      "",
+      ""
+    ],
+    "GaxpIdp": [
+      "",
+      ""
+    ],
+    "Station": [
+      "",
+      ""
+    ],
+    "NCS": [
+      "",
+      ""
+    ],
+    "Grp_Offset": [
+      "",
+      ""
+    ],
+    "RotaX": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      "|==|LET(\na,\";STO#\",\nb,\"(#n) \",\nc,\" \",\nb_,\"(#n) '\",\nc_,\"'\",\n\nkd_2,IF([@InActive]=\"\",\" \",\"'x'\"),\nkd_7,IF(#REF!=\"\",0,#REF!),\nkd_8,IF([@Station]=\"\",0,[@Station]),\nkd_9,IF(#REF!=\"\",0,#REF!),\n\nk_0,a&\"MaSType\"&b_&[@Type]&c_,\nk_1,a&\"MaSName\"&b_&[@Name]&c_,\nk_2,a&\"MaSInAc\"&b_&kd_2&c_,\nk_3,a&\"MaSAxis\"&b_&[@GaxpIdp]&c_,\nk_4,a&\"MaSIdp\"&b_&#REF!&c_,\nk_5,a&\"MaSStat\"&b&#REF!&c,\nk_6,a&\"MaSGaxType\"&b_&#REF!&c_,\nk_7,a&\"MaSNcs\"&b&kd_7&c,\nk_8,a&\"MaSPAlfz\"&b&kd_8&c,\nk_9,a&\"MaSGrpOffset\"&b&kd_9&c,\n\n\nr_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,\n\n\nresult,\"let#n #n+1\" & r_1,\nIFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))\n)"
+    ]
+  }
+]
