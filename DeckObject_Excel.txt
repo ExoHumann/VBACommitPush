@@ -1,0 +1,462 @@
+[
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "Comment",
+      "Comment"
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "Deck Stations",
+      "Deck Stations"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "",
+      ""
+    ],
+    "CrossSection@Type": [
+      0,
+      "|==|CrossSection[@Type]"
+    ],
+    "CrossSection@Name": [
+      "Deck Stations",
+      "|==|CrossSection[@Name]"
+    ],
+    "CrossSection@NCS": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "!*!Label - Deck Stations",
+      "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF([@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&[@Type]&c_,  k_1,a&\"MaSName\"&b_&[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&[@Axis]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
+    ]
+  },
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "DeckObject",
+      "DeckObject"
+    ],
+    "Type": [
+      "Deck",
+      "Deck"
+    ],
+    "Description": [
+      "Deck CSB",
+      "Deck CSB"
+    ],
+    "Name": [
+      "Dck_CSB",
+      "Dck_CSB"
+    ],
+    "InActive": [
+      "X",
+      "X"
+    ],
+    "Axis": [
+      "AX",
+      "AX"
+    ],
+    "CrossSection@Type": [
+      "Deck",
+      "|==|CrossSection[@Type]"
+    ],
+    "CrossSection@Name": [
+      "Dck_CSB",
+      "|==|CrossSection[@Name]"
+    ],
+    "CrossSection@NCS": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "#REFERENCE!",
+      "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF([@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&[@Type]&c_,  k_1,a&\"MaSName\"&b_&[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&[@Axis]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "DeckObject",
+      "DeckObject"
+    ],
+    "Type": [
+      "Deck",
+      "Deck"
+    ],
+    "Description": [
+      "Deck APR",
+      "Deck APR"
+    ],
+    "Name": [
+      "Dck_APR1",
+      "Dck_APR1"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "AX",
+      "AX"
+    ],
+    "CrossSection@Type": [
+      "Pier",
+      "|==|CrossSection[@Type]"
+    ],
+    "CrossSection@Name": [
+      "Pir_CSB",
+      "|==|CrossSection[@Name]"
+    ],
+    "CrossSection@NCS": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "#REFERENCE!",
+      "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF([@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&[@Type]&c_,  k_1,a&\"MaSName\"&b_&[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&[@Axis]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "",
+      ""
+    ],
+    "CrossSection@Type": [
+      "",
+      ""
+    ],
+    "CrossSection@Name": [
+      "",
+      ""
+    ],
+    "CrossSection@NCS": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF([@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&[@Type]&c_,  k_1,a&\"MaSName\"&b_&[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&[@Axis]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "",
+      ""
+    ],
+    "CrossSection@Type": [
+      "",
+      ""
+    ],
+    "CrossSection@Name": [
+      "",
+      ""
+    ],
+    "CrossSection@NCS": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF([@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&[@Type]&c_,  k_1,a&\"MaSName\"&b_&[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&[@Axis]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "",
+      ""
+    ],
+    "CrossSection@Type": [
+      "",
+      ""
+    ],
+    "CrossSection@Name": [
+      "",
+      ""
+    ],
+    "CrossSection@NCS": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF([@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&[@Type]&c_,  k_1,a&\"MaSName\"&b_&[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&[@Axis]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "",
+      ""
+    ],
+    "CrossSection@Type": [
+      "",
+      ""
+    ],
+    "CrossSection@Name": [
+      "",
+      ""
+    ],
+    "CrossSection@NCS": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF([@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&[@Type]&c_,  k_1,a&\"MaSName\"&b_&[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&[@Axis]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "",
+      ""
+    ],
+    "CrossSection@Type": [
+      "",
+      ""
+    ],
+    "CrossSection@Name": [
+      "",
+      ""
+    ],
+    "CrossSection@NCS": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF([@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&[@Type]&c_,  k_1,a&\"MaSName\"&b_&[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&[@Axis]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "",
+      ""
+    ],
+    "CrossSection@Type": [
+      "",
+      ""
+    ],
+    "CrossSection@Name": [
+      "",
+      ""
+    ],
+    "CrossSection@NCS": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF([@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&[@Type]&c_,  k_1,a&\"MaSName\"&b_&[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&[@Axis]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Axis": [
+      "",
+      ""
+    ],
+    "CrossSection@Type": [
+      "",
+      ""
+    ],
+    "CrossSection@Name": [
+      "",
+      ""
+    ],
+    "CrossSection@NCS": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      "|==|LET(  a,\";STO#\",  b,\"(#n) \",  c,\" \",  b_,\"(#n) '\",  c_,\"'\",    kd_2,IF([@InActive]=\"\",\" \",\"'x'\"),  kd_7,IF(#REF!=\"\",0,#REF!),  kd_8,IF(#REF!=\"\",0,#REF!),  kd_9,IF(#REF!=\"\",0,#REF!),    k_0,a&\"MaSType\"&b_&[@Type]&c_,  k_1,a&\"MaSName\"&b_&[@Name]&c_,  k_2,a&\"MaSInAc\"&b_&kd_2&c_,  k_3,a&\"MaSAxis\"&b_&[@Axis]&c_,  k_4,a&\"MaSIdp\"&b_&#REF!&c_,  k_5,a&\"MaSStat\"&b&#REF!&c,  k_6,a&\"MaSGaxType\"&b_&#REF!&c_,  k_7,a&\"MaSNcs\"&b&kd_7&c,  k_8,a&\"MaSPAlfz\"&b&kd_8&c,  k_9,a&\"MaSGrpOffset\"&b&kd_9&c,      r_1,k_0&k_1&k_2&k_3&UPPER(k_4)&k_5&k_6&k_7&k_8&k_9,      result,\"let#n #n+1\" & r_1,  IFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"!*!Label - \"&[@Name],[@Class]<>\"\",IF([@InActive]<>\"\",\"$ InActive $ \"&result,result))  )"
+    ]
+  }
+]
