@@ -1,0 +1,230 @@
+[
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "CrossBeam-I5",
+      "CrossBeam-I5"
+    ],
+    "Description": [
+      "Bearing Crsb01 at Idp:PI",
+      "|==|IF(OR([@Class]=\"\",[@Class]=\"Comment\"),\"\",\n\"Bearing \"&[@Name]&\" at Idp:\"&[@[Beg_GaxpIdp]]\n)"
+    ],
+    "Name": [
+      "Crsb01",
+      "Crsb01"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis": [
+      "AX",
+      "AX"
+    ],
+    "Beg_GaxpIdp": [
+      "PI",
+      "PI"
+    ],
+    "BegStation_delta": [
+      -2,
+      -2
+    ],
+    "BegStation": [
+      "398+(-2)",
+      "|==|IF(OR([@Class]=\"\",[@Class]=\"Comment\"),\"\",\nXLOOKUP([@[Beg_GaxpIdp]]&[@[Beg_Axis]],MainStation[GaxpIdp]&MainStation[Axis],MainStation[Station],\"notFound\",0,1)&IF([@[BegStation_delta]]<>\"\",\"+(\"&[@[BegStation_delta]]&\")\",\"\")\n)"
+    ],
+    "End_Axis": [
+      "AX",
+      "AX"
+    ],
+    "End_GaxpIdp": [
+      "PI",
+      "PI"
+    ],
+    "EndStation_delta": [
+      -2,
+      -2
+    ],
+    "EndStation": [
+      "398+(-2)",
+      "|==|IF(OR([@Class]=\"\",[@Class]=\"Comment\"),\"\",\nXLOOKUP([@[Beg_GaxpIdp]]&[@[End_Axis]],MainStation[GaxpIdp]&MainStation[Axis],MainStation[Station],\"notFound\",0,1)&IF([@[BegStation_delta]]<>\"\",\"+(\"&[@[BegStation_delta]]&\")\",\"\")\n)"
+    ],
+    "CsPName_Bearing": [
+      "Crsb01",
+      "|==|IF(OR([@Class]=\"\",[@Class]=\"Comment\"),\"\",\n[@Name]\n)"
+    ],
+    "CsPName_TopRef": [
+      "G01",
+      "G01"
+    ],
+    "CsPName_BotRef": [
+      "P__1",
+      "P__1"
+    ],
+    "Grp": [
+      501,
+      "|==|IF(OR([@Class]=\"\",[@Class]=\"Comment\"),\"\",[@No]+500)"
+    ],
+    "Rotation X (deg)": [
+      "",
+      ""
+    ],
+    "Rotation Z (deg)": [
+      "",
+      ""
+    ],
+    "Kx (kN/m)": [
+      "",
+      ""
+    ],
+    "Ky (kN/m)": [
+      "$(BEAR_FIX)",
+      "$(BEAR_FIX)"
+    ],
+    "Kz (kN/m)": [
+      "$(BEAR_FIX)",
+      "$(BEAR_FIX)"
+    ],
+    "Rx (kNm/rad)": [
+      "",
+      ""
+    ],
+    "Ry (kNm/rad)": [
+      "",
+      ""
+    ],
+    "Rz (kNm/rad)": [
+      "",
+      ""
+    ],
+    "Fixation": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "let#n #n+1; STO#BerName(#n) 'Crsb01' ; STO#BerInAc(#n) ' ' ; STO#BerAxis(#n) 'AX' ; STO#BerIdp(#n) 'PI' ; STO#BerStat(#n) 398+(-2) ; STO#BerPNam(#n) 'Crsb01' ; STO#BerPTop(#n) 'G01' ; STO#BerPBot(#n) 'P__1' ; STO#BerGrp(#n) 501  ||  let#n #n+1; STO#BerRoX(#n) 0 ; STO#BerRoY(#n) 0 ; STO#BerKx(#n) $(bear_fre) ; STO#BerKy(#n) $(BEAR_FIX) ; STO#BerKz(#n) $(BEAR_FIX) ; STO#BerRx(#n) $(bear_fre) ; STO#BerRy(#n) $(bear_fre) ; STO#BerRz(#n) $(bear_fre) ; STO#BerFix(#n) '' ",
+      "|==|LET(\na,\"; STO#\",\nb,\"(#n) \",\nc,\" \",\nb_,\"(#n) '\",\nc_,\"' \",\n\nkd_2,IF([@InActive]=\"\",\" \",\"'x'\"),\nld_1,IF([@[Rotation X (deg)]]=\"\",0,[@[Rotation X (deg)]]),\nld_2,IF([@[Rotation Z (deg)]]=\"\",0,[@[Rotation Z (deg)]]),\nld_3,IF([@[Kx (kN/m)]]=\"\",\"$(bear_fre)\",[@[Kx (kN/m)]]),\nld_4,IF([@[Ky (kN/m)]]=\"\",\"$(bear_fre)\",[@[Ky (kN/m)]]),\nld_5,IF([@[Kz (kN/m)]]=\"\",\"$(bear_fre)\",[@[Kz (kN/m)]]),\nld_6,IF([@[Rx (kNm/rad)]]=\"\",\"$(bear_fre)\",[@[Rx (kNm/rad)]]),\nld_7,IF([@[Ry (kNm/rad)]]=\"\",\"$(bear_fre)\",[@[Ry (kNm/rad)]]),\nld_8,IF([@[Rz (kNm/rad)]]=\"\",\"$(bear_fre)\",[@[Rz (kNm/rad)]]),\nld_9,IF([@Fixation]=\"\",\"\",[@Fixation]),\n\nk_1,a&\"BerName\"&b_&[@Name]&c_,\nk_2,a&\"BerInAc\"&b_&kd_2&c_,\nk_3,a&\"BerAxis\"&b_&[@[Beg_Axis]]&c_,\nk_4,a&\"BerIdp\"&b_&[@[Beg_GaxpIdp]]&c_,\nk_5,a&\"BerStat\"&b&[@BegStation]&c,\nk_6,a&\"BerPNam\"&b_&[@[CsPName_Bearing]]&c_,\nk_7,a&\"BerPTop\"&b_&[@[CsPName_TopRef]]&c_,\nk_8,a&\"BerPBot\"&b_&[@[CsPName_BotRef]]&c_,\nk_9,a&\"BerGrp\"&b&[@Grp]&c,\n\nl_1,a&\"BerRoX\"&b&ld_1&c,\nl_2,a&\"BerRoY\"&b&ld_2&c,\nl_3,a&\"BerKx\"&b&ld_3&c,\nl_4,a&\"BerKy\"&b&ld_4&c,\nl_5,a&\"BerKz\"&b&ld_5&c,\nl_6,a&\"BerRx\"&b&ld_6&c,\nl_7,a&\"BerRy\"&b&ld_7&c,\nl_8,a&\"BerRz\"&b&ld_8&c,\nl_9,a&\"BerFix\"&b_&ld_9&c_,\n\nr_1,k_1&k_2&k_3&k_4&k_5&k_6&k_7&k_8&k_9,\nr_2,l_1&l_2&l_3&l_4&l_5&l_6&l_7&l_8&l_9,\n\nresult,\"let#n #n+1\" & r_1&\" ||  \"&\"let#n #n+1\" & r_2,\nIFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"$ \"&[@Name]&\" || $ \"&[@Name],[@Class]<>\"\",result)\n)"
+    ]
+  },
+  {
+    "No": [
+      2,
+      "|==|B115+1"
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "CrossBeam-I6",
+      "CrossBeam-I6"
+    ],
+    "Description": [
+      "Bearing Crsb02 at Idp:PI1",
+      "|==|IF(OR([@Class]=\"\",[@Class]=\"Comment\"),\"\",\n\"Bearing \"&[@Name]&\" at Idp:\"&[@[Beg_GaxpIdp]]\n)"
+    ],
+    "Name": [
+      "Crsb02",
+      "Crsb02"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis": [
+      "AX",
+      "AX"
+    ],
+    "Beg_GaxpIdp": [
+      "PI1",
+      "PI1"
+    ],
+    "BegStation_delta": [
+      "",
+      ""
+    ],
+    "BegStation": [
+      "438",
+      "|==|IF(OR([@Class]=\"\",[@Class]=\"Comment\"),\"\",\nXLOOKUP([@[Beg_GaxpIdp]]&[@[Beg_Axis]],MainStation[GaxpIdp]&MainStation[Axis],MainStation[Station],\"notFound\",0,1)&IF([@[BegStation_delta]]<>\"\",\"+(\"&[@[BegStation_delta]]&\")\",\"\")\n)"
+    ],
+    "End_Axis": [
+      "AX",
+      "AX"
+    ],
+    "End_GaxpIdp": [
+      "PI1",
+      "PI1"
+    ],
+    "EndStation_delta": [
+      "",
+      ""
+    ],
+    "EndStation": [
+      "438",
+      "|==|IF(OR([@Class]=\"\",[@Class]=\"Comment\"),\"\",\nXLOOKUP([@[Beg_GaxpIdp]]&[@[End_Axis]],MainStation[GaxpIdp]&MainStation[Axis],MainStation[Station],\"notFound\",0,1)&IF([@[BegStation_delta]]<>\"\",\"+(\"&[@[BegStation_delta]]&\")\",\"\")\n)"
+    ],
+    "CsPName_Bearing": [
+      "Crsb02",
+      "|==|IF(OR([@Class]=\"\",[@Class]=\"Comment\"),\"\",\n[@Name]\n)"
+    ],
+    "CsPName_TopRef": [
+      "G01",
+      "G01"
+    ],
+    "CsPName_BotRef": [
+      "P__1",
+      "P__1"
+    ],
+    "Grp": [
+      502,
+      "|==|IF(OR([@Class]=\"\",[@Class]=\"Comment\"),\"\",[@No]+500)"
+    ],
+    "Rotation X (deg)": [
+      "",
+      ""
+    ],
+    "Rotation Z (deg)": [
+      "",
+      ""
+    ],
+    "Kx (kN/m)": [
+      "",
+      ""
+    ],
+    "Ky (kN/m)": [
+      "$(BEAR_FIX)",
+      "$(BEAR_FIX)"
+    ],
+    "Kz (kN/m)": [
+      "$(BEAR_FIX)",
+      "$(BEAR_FIX)"
+    ],
+    "Rx (kNm/rad)": [
+      "",
+      ""
+    ],
+    "Ry (kNm/rad)": [
+      "",
+      ""
+    ],
+    "Rz (kNm/rad)": [
+      "",
+      ""
+    ],
+    "Fixation": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "let#n #n+1; STO#BerName(#n) 'Crsb02' ; STO#BerInAc(#n) ' ' ; STO#BerAxis(#n) 'AX' ; STO#BerIdp(#n) 'PI1' ; STO#BerStat(#n) 438 ; STO#BerPNam(#n) 'Crsb02' ; STO#BerPTop(#n) 'G01' ; STO#BerPBot(#n) 'P__1' ; STO#BerGrp(#n) 502  ||  let#n #n+1; STO#BerRoX(#n) 0 ; STO#BerRoY(#n) 0 ; STO#BerKx(#n) $(bear_fre) ; STO#BerKy(#n) $(BEAR_FIX) ; STO#BerKz(#n) $(BEAR_FIX) ; STO#BerRx(#n) $(bear_fre) ; STO#BerRy(#n) $(bear_fre) ; STO#BerRz(#n) $(bear_fre) ; STO#BerFix(#n) '' ",
+      "|==|LET(\na,\"; STO#\",\nb,\"(#n) \",\nc,\" \",\nb_,\"(#n) '\",\nc_,\"' \",\n\nkd_2,IF([@InActive]=\"\",\" \",\"'x'\"),\nld_1,IF([@[Rotation X (deg)]]=\"\",0,[@[Rotation X (deg)]]),\nld_2,IF([@[Rotation Z (deg)]]=\"\",0,[@[Rotation Z (deg)]]),\nld_3,IF([@[Kx (kN/m)]]=\"\",\"$(bear_fre)\",[@[Kx (kN/m)]]),\nld_4,IF([@[Ky (kN/m)]]=\"\",\"$(bear_fre)\",[@[Ky (kN/m)]]),\nld_5,IF([@[Kz (kN/m)]]=\"\",\"$(bear_fre)\",[@[Kz (kN/m)]]),\nld_6,IF([@[Rx (kNm/rad)]]=\"\",\"$(bear_fre)\",[@[Rx (kNm/rad)]]),\nld_7,IF([@[Ry (kNm/rad)]]=\"\",\"$(bear_fre)\",[@[Ry (kNm/rad)]]),\nld_8,IF([@[Rz (kNm/rad)]]=\"\",\"$(bear_fre)\",[@[Rz (kNm/rad)]]),\nld_9,IF([@Fixation]=\"\",\"\",[@Fixation]),\n\nk_1,a&\"BerName\"&b_&[@Name]&c_,\nk_2,a&\"BerInAc\"&b_&kd_2&c_,\nk_3,a&\"BerAxis\"&b_&[@[Beg_Axis]]&c_,\nk_4,a&\"BerIdp\"&b_&[@[Beg_GaxpIdp]]&c_,\nk_5,a&\"BerStat\"&b&[@BegStation]&c,\nk_6,a&\"BerPNam\"&b_&[@[CsPName_Bearing]]&c_,\nk_7,a&\"BerPTop\"&b_&[@[CsPName_TopRef]]&c_,\nk_8,a&\"BerPBot\"&b_&[@[CsPName_BotRef]]&c_,\nk_9,a&\"BerGrp\"&b&[@Grp]&c,\n\nl_1,a&\"BerRoX\"&b&ld_1&c,\nl_2,a&\"BerRoY\"&b&ld_2&c,\nl_3,a&\"BerKx\"&b&ld_3&c,\nl_4,a&\"BerKy\"&b&ld_4&c,\nl_5,a&\"BerKz\"&b&ld_5&c,\nl_6,a&\"BerRx\"&b&ld_6&c,\nl_7,a&\"BerRy\"&b&ld_7&c,\nl_8,a&\"BerRz\"&b&ld_8&c,\nl_9,a&\"BerFix\"&b_&ld_9&c_,\n\nr_1,k_1&k_2&k_3&k_4&k_5&k_6&k_7&k_8&k_9,\nr_2,l_1&l_2&l_3&l_4&l_5&l_6&l_7&l_8&l_9,\n\nresult,\"let#n #n+1\" & r_1&\" ||  \"&\"let#n #n+1\" & r_2,\nIFS([@Class]=\"\",\"\",[@Class]=\"Comment\",\"$ \"&[@Name]&\" || $ \"&[@Name],[@Class]<>\"\",result)\n)"
+    ]
+  }
+]
