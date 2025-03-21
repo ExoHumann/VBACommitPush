@@ -1,0 +1,3958 @@
+[
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Deck",
+      "Deck"
+    ],
+    "Description": [
+      "Deck CSB",
+      "Deck CSB"
+    ],
+    "Name": [
+      "Dck_CSB",
+      "Dck_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "W",
+      "W"
+    ],
+    "VarValue": [
+      4,
+      4
+    ],
+    "VarUnit": [
+      "[m]",
+      "[m]"
+    ],
+    "VarDescription": [
+      "Width:Width of section",
+      "Width:Width of section"
+    ],
+    "Status": [
+      "Custom",
+      "Custom"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Deck",
+      "Deck"
+    ],
+    "Description": [
+      "Deck CSB",
+      "Deck CSB"
+    ],
+    "Name": [
+      "Dck_CSB",
+      "Dck_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "H",
+      "H"
+    ],
+    "VarValue": [
+      3,
+      3
+    ],
+    "VarUnit": [
+      "[m]",
+      "[m]"
+    ],
+    "VarDescription": [
+      "Height:Height of section",
+      "Height:Height of section"
+    ],
+    "Status": [
+      "Custom",
+      "Custom"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Deck",
+      "Deck"
+    ],
+    "Description": [
+      "Deck CSB",
+      "Deck CSB"
+    ],
+    "Name": [
+      "Dck_CSB",
+      "Dck_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "TH1",
+      "TH1"
+    ],
+    "VarValue": [
+      "0,5",
+      "0,5"
+    ],
+    "VarUnit": [
+      "[m]",
+      "[m]"
+    ],
+    "VarDescription": [
+      "ThicknessTop:Thickness of top slab",
+      "ThicknessTop:Thickness of top slab"
+    ],
+    "Status": [
+      "Custom",
+      "Custom"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Deck",
+      "Deck"
+    ],
+    "Description": [
+      "Deck CSB",
+      "Deck CSB"
+    ],
+    "Name": [
+      "Dck_CSB",
+      "Dck_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "TH2",
+      "TH2"
+    ],
+    "VarValue": [
+      "0,3",
+      "0,3"
+    ],
+    "VarUnit": [
+      "[m]",
+      "[m]"
+    ],
+    "VarDescription": [
+      "ThicknessMid:Thickness of vertical element",
+      "ThicknessMid:Thickness of vertical element"
+    ],
+    "Status": [
+      "Custom",
+      "Custom"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Deck",
+      "Deck"
+    ],
+    "Description": [
+      "Deck CSB",
+      "Deck CSB"
+    ],
+    "Name": [
+      "Dck_CSB",
+      "Dck_CSB"
+    ],
+    "InActive": [
+      "X",
+      "X"
+    ],
+    "VarName": [
+      "TH3",
+      "TH3"
+    ],
+    "VarValue": [
+      "0,1",
+      "0,1"
+    ],
+    "VarUnit": [
+      "[m]",
+      "[m]"
+    ],
+    "VarDescription": [
+      "ThicknessWeld:Thickness of weld",
+      "ThicknessWeld:Thickness of weld"
+    ],
+    "Status": [
+      "Custom",
+      "Custom"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Deck",
+      "Deck"
+    ],
+    "Description": [
+      "Deck CSB",
+      "Deck CSB"
+    ],
+    "Name": [
+      "Dck_CSB",
+      "Dck_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "test",
+      "test"
+    ],
+    "VarValue": [
+      "0,1",
+      "0,1"
+    ],
+    "VarUnit": [
+      "[m]",
+      "[m]"
+    ],
+    "VarDescription": [
+      "DiameterRf:Diameter of reinforcement",
+      "DiameterRf:Diameter of reinforcement"
+    ],
+    "Status": [
+      "Custom",
+      "Custom"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Deck",
+      "Deck"
+    ],
+    "Description": [
+      "Deck CSB",
+      "Deck CSB"
+    ],
+    "Name": [
+      "Dck_CSB",
+      "Dck_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "rfSpace",
+      "rfSpace"
+    ],
+    "VarValue": [
+      "0,3",
+      "0,3"
+    ],
+    "VarUnit": [
+      "[m]",
+      "[m]"
+    ],
+    "VarDescription": [
+      "SpacingRf:Spacing of reinforcement",
+      "SpacingRf:Spacing of reinforcement"
+    ],
+    "Status": [
+      "Custom",
+      "Custom"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Deck",
+      "Deck"
+    ],
+    "Description": [
+      "Deck CSB",
+      "Deck CSB"
+    ],
+    "Name": [
+      "Dck_CSB",
+      "Dck_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "rfBDist",
+      "rfBDist"
+    ],
+    "VarValue": [
+      "0,5",
+      "0,5"
+    ],
+    "VarUnit": [
+      "[m]",
+      "[m]"
+    ],
+    "VarDescription": [
+      "BorderDistRf:Border distance of reinforcement",
+      "BorderDistRf:Border distance of reinforcement"
+    ],
+    "Status": [
+      "Custom",
+      "Custom"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "",
+      ""
+    ],
+    "VarValue": [
+      "",
+      ""
+    ],
+    "VarUnit": [
+      "",
+      ""
+    ],
+    "VarDescription": [
+      "",
+      ""
+    ],
+    "Status": [
+      "",
+      ""
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Deck",
+      "Deck"
+    ],
+    "Description": [
+      "Deck CSB",
+      "Deck CSB"
+    ],
+    "Name": [
+      "Dck_CSB",
+      "Dck_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "rfDia",
+      "rfDia"
+    ],
+    "VarValue": [
+      "0,1",
+      "0,1"
+    ],
+    "VarUnit": [
+      "[m]",
+      "[m]"
+    ],
+    "VarDescription": [
+      "DiameterRf:Diameter of reinforcement",
+      "DiameterRf:Diameter of reinforcement"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "",
+      ""
+    ],
+    "VarValue": [
+      "",
+      ""
+    ],
+    "VarUnit": [
+      "",
+      ""
+    ],
+    "VarDescription": [
+      "",
+      ""
+    ],
+    "Status": [
+      "",
+      ""
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "VarName": [
+      "W_TOP",
+      "W_TOP"
+    ],
+    "VarValue": [
+      8000,
+      8000
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Width:Width of section",
+      "Width:Width of section"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "VarName": [
+      "H",
+      "H"
+    ],
+    "VarValue": [
+      4000,
+      4000
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Height:Height of section",
+      "Height:Height of section"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "VarName": [
+      "T_TOP",
+      "T_TOP"
+    ],
+    "VarValue": [
+      80,
+      80
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "ThicknessTop:Thickness of top plate",
+      "ThicknessTop:Thickness of top plate"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "VarName": [
+      "T_WEB",
+      "T_WEB"
+    ],
+    "VarValue": [
+      40,
+      40
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "ThicknessMid:Thickness of vertical element",
+      "ThicknessMid:Thickness of vertical element"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "T_BOT",
+      "T_BOT"
+    ],
+    "VarValue": [
+      60,
+      60
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "ThicknessBot:Thickness of bottom plate",
+      "ThicknessBot:Thickness of bottom plate"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "W_BOT",
+      "W_BOT"
+    ],
+    "VarValue": [
+      6000,
+      6000
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Width:Width of the bottom section",
+      "Width:Width of the bottom section"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "T_WELD",
+      "T_WELD"
+    ],
+    "VarValue": [
+      30,
+      30
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "ThicknessWeld:Thickness of the welds",
+      "ThicknessWeld:Thickness of the welds"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "D_BEAR_1",
+      "D_BEAR_1"
+    ],
+    "VarValue": [
+      3500,
+      3500
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "DistanceBearings1:Distance between the bearings - first line",
+      "DistanceBearings1:Distance between the bearings - first line"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "D_BEAR_2",
+      "D_BEAR_2"
+    ],
+    "VarValue": [
+      6000,
+      "|==|I134"
+    ],
+    "VarUnit": [
+      "[mm]",
+      "|==|J133"
+    ],
+    "VarDescription": [
+      "Width:Width of the bottom section",
+      "|==|K134"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "H_Cb",
+      "H_Cb"
+    ],
+    "VarValue": [
+      6000,
+      6000
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Horizontal Cable Distance",
+      "Horizontal Cable Distance"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "VarName": [
+      "V_Cb",
+      "V_Cb"
+    ],
+    "VarValue": [
+      500,
+      500
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Vertical Cable Distance",
+      "Vertical Cable Distance"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "VarName": [
+      "D_Ax",
+      "D_Ax"
+    ],
+    "VarValue": [
+      3500,
+      3500
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "N/A",
+      "N/A"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "VarName": [
+      "DZ_Deck",
+      "DZ_Deck"
+    ],
+    "VarValue": [
+      200,
+      200
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Deck top level alignment",
+      "Deck top level alignment"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "VarName": [
+      "H_bear",
+      "H_bear"
+    ],
+    "VarValue": [
+      500,
+      500
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Bearing depth",
+      "Bearing depth"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "VarName": [
+      "L_Cant",
+      "L_Cant"
+    ],
+    "VarValue": [
+      2000,
+      2000
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Length cantilever",
+      "Length cantilever"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "VarName": [
+      "Wbox_Cb",
+      "Wbox_Cb"
+    ],
+    "VarValue": [
+      3000,
+      3000
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Width of the box for cable inspection",
+      "Width of the box for cable inspection"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "VarName": [
+      "p",
+      "p"
+    ],
+    "VarValue": [
+      "2,5",
+      "2,5"
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "transverse slope",
+      "transverse slope"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "",
+      ""
+    ],
+    "VarValue": [
+      "",
+      ""
+    ],
+    "VarUnit": [
+      "",
+      ""
+    ],
+    "VarDescription": [
+      "",
+      ""
+    ],
+    "Status": [
+      "",
+      ""
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "W_TOP",
+      "W_TOP"
+    ],
+    "VarValue": [
+      8000,
+      8000
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Width:Width of section",
+      "Width:Width of section"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "H",
+      "H"
+    ],
+    "VarValue": [
+      4000,
+      4000
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Height:Height of section",
+      "Height:Height of section"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "T_TOP",
+      "T_TOP"
+    ],
+    "VarValue": [
+      80,
+      80
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "ThicknessTop:Thickness of top plate",
+      "ThicknessTop:Thickness of top plate"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "T_WEB",
+      "T_WEB"
+    ],
+    "VarValue": [
+      40,
+      40
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "ThicknessMid:Thickness of vertical element",
+      "ThicknessMid:Thickness of vertical element"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "T_BOT",
+      "T_BOT"
+    ],
+    "VarValue": [
+      60,
+      60
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "ThicknessBot:Thickness of bottom plate",
+      "ThicknessBot:Thickness of bottom plate"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "W_BOT",
+      "W_BOT"
+    ],
+    "VarValue": [
+      6000,
+      6000
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Width:Width of the bottom section",
+      "Width:Width of the bottom section"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "T_WELD",
+      "T_WELD"
+    ],
+    "VarValue": [
+      30,
+      30
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "ThicknessWeld:Thickness of the welds",
+      "ThicknessWeld:Thickness of the welds"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "D_BEAR_1",
+      "D_BEAR_1"
+    ],
+    "VarValue": [
+      3500,
+      3500
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "DistanceBearings1:Distance between the bearings - first line",
+      "DistanceBearings1:Distance between the bearings - first line"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "D_BEAR_2",
+      "D_BEAR_2"
+    ],
+    "VarValue": [
+      5000,
+      5000
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "DistanceBearings2: Distance between the bearings - second line",
+      "DistanceBearings2: Distance between the bearings - second line"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "H_Cb",
+      "H_Cb"
+    ],
+    "VarValue": [
+      6000,
+      6000
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Horizontal Cable Distance",
+      "Horizontal Cable Distance"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "V_Cb",
+      "V_Cb"
+    ],
+    "VarValue": [
+      500,
+      500
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Vertical Cable Distance",
+      "Vertical Cable Distance"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "D_Ax",
+      "D_Ax"
+    ],
+    "VarValue": [
+      3500,
+      3500
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "",
+      ""
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "DZ_Deck",
+      "DZ_Deck"
+    ],
+    "VarValue": [
+      200,
+      200
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Deck top level alignment",
+      "Deck top level alignment"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "H_bear",
+      "H_bear"
+    ],
+    "VarValue": [
+      500,
+      500
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Bearing depth",
+      "Bearing depth"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "L_Cant",
+      "L_Cant"
+    ],
+    "VarValue": [
+      2000,
+      2000
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Length cantilever",
+      "Length cantilever"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "Wbox_Cb",
+      "Wbox_Cb"
+    ],
+    "VarValue": [
+      3000,
+      3000
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "Width of the box for cable inspection",
+      "Width of the box for cable inspection"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "VarName": [
+      "p",
+      "p"
+    ],
+    "VarValue": [
+      "2,5",
+      "2,5"
+    ],
+    "VarUnit": [
+      "[mm]",
+      "[mm]"
+    ],
+    "VarDescription": [
+      "transverse slope",
+      "transverse slope"
+    ],
+    "Status": [
+      "Default",
+      "Default"
+    ],
+    "Kolonne9": [
+      "",
+      ""
+    ],
+    "Kolonne8": [
+      "",
+      ""
+    ],
+    "Kolonne7": [
+      "",
+      ""
+    ],
+    "Kolonne6": [
+      "",
+      ""
+    ],
+    "Kolonne5": [
+      "",
+      ""
+    ],
+    "Kolonne4": [
+      "",
+      ""
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ],
+    "Kolonne1": [
+      "",
+      ""
+    ],
+    "Kolonne2": [
+      "",
+      ""
+    ],
+    "Kolonne3": [
+      "",
+      ""
+    ]
+  }
+]
