@@ -1,0 +1,2502 @@
+[
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      "TOP",
+      "TOP"
+    ],
+    "CoorY": [
+      0,
+      0
+    ],
+    "CoorZ": [
+      0,
+      0
+    ],
+    "CoorYVal": [
+      0,
+      0
+    ],
+    "CoorZVal": [
+      0,
+      0
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      "BOT",
+      "BOT"
+    ],
+    "CoorY": [
+      0,
+      0
+    ],
+    "CoorZ": [
+      "H",
+      "H"
+    ],
+    "CoorYVal": [
+      0,
+      0
+    ],
+    "CoorZVal": [
+      4000,
+      4000
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      "B01",
+      "B01"
+    ],
+    "CoorY": [
+      "-D_BEAR_1/2",
+      "-D_BEAR_1/2"
+    ],
+    "CoorZ": [
+      "H",
+      "H"
+    ],
+    "CoorYVal": [
+      -1750,
+      -1750
+    ],
+    "CoorZVal": [
+      4000,
+      4000
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      "B51",
+      "B51"
+    ],
+    "CoorY": [
+      "+D_BEAR_1/2",
+      "+D_BEAR_1/2"
+    ],
+    "CoorZ": [
+      "H",
+      "H"
+    ],
+    "CoorYVal": [
+      1750,
+      1750
+    ],
+    "CoorZVal": [
+      4000,
+      4000
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      "B02",
+      "B02"
+    ],
+    "CoorY": [
+      "-D_BEAR_2/2",
+      "-D_BEAR_2/2"
+    ],
+    "CoorZ": [
+      "H",
+      "H"
+    ],
+    "CoorYVal": [
+      -2500,
+      -2500
+    ],
+    "CoorZVal": [
+      4000,
+      4000
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      "B52",
+      "B52"
+    ],
+    "CoorY": [
+      "+D_BEAR_2/2",
+      "+D_BEAR_2/2"
+    ],
+    "CoorZ": [
+      "H",
+      "H"
+    ],
+    "CoorYVal": [
+      2500,
+      2500
+    ],
+    "CoorZVal": [
+      4000,
+      4000
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      "C00",
+      "C00"
+    ],
+    "CoorY": [
+      0,
+      0
+    ],
+    "CoorZ": [
+      "-V_Cb",
+      "-V_Cb"
+    ],
+    "CoorYVal": [
+      0,
+      0
+    ],
+    "CoorZVal": [
+      -500,
+      -500
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      "C01",
+      "C01"
+    ],
+    "CoorY": [
+      "-H_Cb",
+      "-H_Cb"
+    ],
+    "CoorZ": [
+      "-V_Cb",
+      "-V_Cb"
+    ],
+    "CoorYVal": [
+      "#V\u00C6RDI!",
+      "#V\u00C6RDI!"
+    ],
+    "CoorZVal": [
+      -500,
+      -500
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      "C02",
+      "C02"
+    ],
+    "CoorY": [
+      "+H_Cb",
+      "+H_Cb"
+    ],
+    "CoorZ": [
+      "-V_Cb",
+      "-V_Cb"
+    ],
+    "CoorYVal": [
+      "#V\u00C6RDI!",
+      "#V\u00C6RDI!"
+    ],
+    "CoorZVal": [
+      -500,
+      -500
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      "X00",
+      "X00"
+    ],
+    "CoorY": [
+      0,
+      0
+    ],
+    "CoorZ": [
+      0,
+      0
+    ],
+    "CoorYVal": [
+      0,
+      0
+    ],
+    "CoorZVal": [
+      0,
+      0
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      "X01",
+      "X01"
+    ],
+    "CoorY": [
+      "-D_Ax/2",
+      "-D_Ax/2"
+    ],
+    "CoorZ": [
+      0,
+      0
+    ],
+    "CoorYVal": [
+      -1750,
+      -1750
+    ],
+    "CoorZVal": [
+      0,
+      0
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      "X02",
+      "X02"
+    ],
+    "CoorY": [
+      "+D_Ax/2",
+      "+D_Ax/2"
+    ],
+    "CoorZ": [
+      0,
+      0
+    ],
+    "CoorYVal": [
+      1750,
+      1750
+    ],
+    "CoorZVal": [
+      0,
+      0
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      0,
+      0
+    ],
+    "CoorY": [
+      0,
+      0
+    ],
+    "CoorZ": [
+      "-DZ_Deck",
+      "-DZ_Deck"
+    ],
+    "CoorYVal": [
+      0,
+      0
+    ],
+    "CoorZVal": [
+      -200,
+      -200
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      "P__00",
+      "P__00"
+    ],
+    "CoorY": [
+      0,
+      0
+    ],
+    "CoorZ": [
+      "H",
+      "H"
+    ],
+    "CoorYVal": [
+      0,
+      0
+    ],
+    "CoorZVal": [
+      4000,
+      4000
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      "P__B",
+      "P__B"
+    ],
+    "CoorY": [
+      0,
+      0
+    ],
+    "CoorZ": [
+      "H+H_bear",
+      "H+H_bear"
+    ],
+    "CoorYVal": [
+      0,
+      0
+    ],
+    "CoorZVal": [
+      "#V\u00C6RDI!",
+      "#V\u00C6RDI!"
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      101,
+      101
+    ],
+    "CoorY": [
+      "-W_TOP/2",
+      "-W_TOP/2"
+    ],
+    "CoorZ": [
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-Wbox_Cb/2)",
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-Wbox_Cb/2)"
+    ],
+    "CoorYVal": [
+      -4000,
+      -4000
+    ],
+    "CoorZVal": [
+      "#V\u00C6RDI!",
+      "#V\u00C6RDI!"
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      102,
+      102
+    ],
+    "CoorY": [
+      "-W_TOP/2+L_Cant",
+      "-W_TOP/2+L_Cant"
+    ],
+    "CoorZ": [
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-L_Cant-Wbox_Cb/2)",
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-L_Cant-Wbox_Cb/2)"
+    ],
+    "CoorYVal": [
+      -2000,
+      -2000
+    ],
+    "CoorZVal": [
+      "#V\u00C6RDI!",
+      "#V\u00C6RDI!"
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      103,
+      103
+    ],
+    "CoorY": [
+      "-Wbox_Cb/2",
+      "-Wbox_Cb/2"
+    ],
+    "CoorZ": [
+      "+T_TOP/2",
+      "+T_TOP/2"
+    ],
+    "CoorYVal": [
+      -1500,
+      -1500
+    ],
+    "CoorZVal": [
+      40,
+      40
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      113,
+      113
+    ],
+    "CoorY": [
+      "+Wbox_Cb/2",
+      "+Wbox_Cb/2"
+    ],
+    "CoorZ": [
+      "+T_TOP/2",
+      "+T_TOP/2"
+    ],
+    "CoorYVal": [
+      1500,
+      1500
+    ],
+    "CoorZVal": [
+      40,
+      40
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      111,
+      111
+    ],
+    "CoorY": [
+      "+W_TOP/2",
+      "+W_TOP/2"
+    ],
+    "CoorZ": [
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-Wbox_Cb/2)",
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-Wbox_Cb/2)"
+    ],
+    "CoorYVal": [
+      4000,
+      4000
+    ],
+    "CoorZVal": [
+      "#V\u00C6RDI!",
+      "#V\u00C6RDI!"
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      112,
+      112
+    ],
+    "CoorY": [
+      "+W_TOP/2-L_Cant",
+      "+W_TOP/2-L_Cant"
+    ],
+    "CoorZ": [
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-L_Cant-Wbox_Cb/2)",
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-L_Cant-Wbox_Cb/2)"
+    ],
+    "CoorYVal": [
+      2000,
+      2000
+    ],
+    "CoorZVal": [
+      "#V\u00C6RDI!",
+      "#V\u00C6RDI!"
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      201,
+      201
+    ],
+    "CoorY": [
+      "-W_BOT/2",
+      "-W_BOT/2"
+    ],
+    "CoorZ": [
+      "H-T_BOT/2",
+      "H-T_BOT/2"
+    ],
+    "CoorYVal": [
+      -3000,
+      -3000
+    ],
+    "CoorZVal": [
+      3970,
+      3970
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      202,
+      202
+    ],
+    "CoorY": [
+      "-Wbox_Cb/2",
+      "-Wbox_Cb/2"
+    ],
+    "CoorZ": [
+      "H-T_BOT/2",
+      "H-T_BOT/2"
+    ],
+    "CoorYVal": [
+      -1500,
+      -1500
+    ],
+    "CoorZVal": [
+      3970,
+      3970
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      211,
+      211
+    ],
+    "CoorY": [
+      "+W_BOT/2",
+      "+W_BOT/2"
+    ],
+    "CoorZ": [
+      "H-T_BOT/2",
+      "H-T_BOT/2"
+    ],
+    "CoorYVal": [
+      3000,
+      3000
+    ],
+    "CoorZVal": [
+      3970,
+      3970
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pier",
+      "Pier"
+    ],
+    "Description": [
+      "Pier CSB",
+      "Pier CSB"
+    ],
+    "Name": [
+      "Pir_CSB",
+      "Pir_CSB"
+    ],
+    "InActive": [
+      "x",
+      "x"
+    ],
+    "PointName": [
+      212,
+      212
+    ],
+    "CoorY": [
+      "+Wbox_Cb/2",
+      "+Wbox_Cb/2"
+    ],
+    "CoorZ": [
+      "H-T_BOT/2",
+      "H-T_BOT/2"
+    ],
+    "CoorYVal": [
+      1500,
+      1500
+    ],
+    "CoorZVal": [
+      3970,
+      3970
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      "TOP",
+      "TOP"
+    ],
+    "CoorY": [
+      0,
+      0
+    ],
+    "CoorZ": [
+      0,
+      0
+    ],
+    "CoorYVal": [
+      0,
+      0
+    ],
+    "CoorZVal": [
+      0,
+      0
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      "BOT",
+      "BOT"
+    ],
+    "CoorY": [
+      0,
+      0
+    ],
+    "CoorZ": [
+      "H",
+      "H"
+    ],
+    "CoorYVal": [
+      0,
+      0
+    ],
+    "CoorZVal": [
+      4000,
+      4000
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      "B01",
+      "B01"
+    ],
+    "CoorY": [
+      "-D_BEAR_1/2",
+      "-D_BEAR_1/2"
+    ],
+    "CoorZ": [
+      "H",
+      "H"
+    ],
+    "CoorYVal": [
+      -1750,
+      -1750
+    ],
+    "CoorZVal": [
+      4000,
+      4000
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      "B51",
+      "B51"
+    ],
+    "CoorY": [
+      "+D_BEAR_1/2",
+      "+D_BEAR_1/2"
+    ],
+    "CoorZ": [
+      "H",
+      "H"
+    ],
+    "CoorYVal": [
+      1750,
+      1750
+    ],
+    "CoorZVal": [
+      4000,
+      4000
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      "B02",
+      "B02"
+    ],
+    "CoorY": [
+      "-D_BEAR_2/2",
+      "-D_BEAR_2/2"
+    ],
+    "CoorZ": [
+      "H",
+      "H"
+    ],
+    "CoorYVal": [
+      -2500,
+      -2500
+    ],
+    "CoorZVal": [
+      4000,
+      4000
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      "B52",
+      "B52"
+    ],
+    "CoorY": [
+      "+D_BEAR_2/2",
+      "+D_BEAR_2/2"
+    ],
+    "CoorZ": [
+      "H",
+      "H"
+    ],
+    "CoorYVal": [
+      2500,
+      2500
+    ],
+    "CoorZVal": [
+      4000,
+      4000
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      "C00",
+      "C00"
+    ],
+    "CoorY": [
+      0,
+      0
+    ],
+    "CoorZ": [
+      "-V_Cb",
+      "-V_Cb"
+    ],
+    "CoorYVal": [
+      0,
+      0
+    ],
+    "CoorZVal": [
+      -500,
+      -500
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      "C01",
+      "C01"
+    ],
+    "CoorY": [
+      "-H_Cb",
+      "-H_Cb"
+    ],
+    "CoorZ": [
+      "-V_Cb",
+      "-V_Cb"
+    ],
+    "CoorYVal": [
+      "#V\u00C6RDI!",
+      "#V\u00C6RDI!"
+    ],
+    "CoorZVal": [
+      -500,
+      -500
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      "C02",
+      "C02"
+    ],
+    "CoorY": [
+      "+H_Cb",
+      "+H_Cb"
+    ],
+    "CoorZ": [
+      "-V_Cb",
+      "-V_Cb"
+    ],
+    "CoorYVal": [
+      "#V\u00C6RDI!",
+      "#V\u00C6RDI!"
+    ],
+    "CoorZVal": [
+      -500,
+      -500
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      "X00",
+      "X00"
+    ],
+    "CoorY": [
+      0,
+      0
+    ],
+    "CoorZ": [
+      0,
+      0
+    ],
+    "CoorYVal": [
+      0,
+      0
+    ],
+    "CoorZVal": [
+      0,
+      0
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      "X01",
+      "X01"
+    ],
+    "CoorY": [
+      "-D_Ax/2",
+      "-D_Ax/2"
+    ],
+    "CoorZ": [
+      0,
+      0
+    ],
+    "CoorYVal": [
+      -1750,
+      -1750
+    ],
+    "CoorZVal": [
+      0,
+      0
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      "X02",
+      "X02"
+    ],
+    "CoorY": [
+      "+D_Ax/2",
+      "+D_Ax/2"
+    ],
+    "CoorZ": [
+      0,
+      0
+    ],
+    "CoorYVal": [
+      1750,
+      1750
+    ],
+    "CoorZVal": [
+      0,
+      0
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      0,
+      0
+    ],
+    "CoorY": [
+      0,
+      0
+    ],
+    "CoorZ": [
+      "-DZ_Deck",
+      "-DZ_Deck"
+    ],
+    "CoorYVal": [
+      0,
+      0
+    ],
+    "CoorZVal": [
+      -200,
+      -200
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      "P__00",
+      "P__00"
+    ],
+    "CoorY": [
+      0,
+      0
+    ],
+    "CoorZ": [
+      "H",
+      "H"
+    ],
+    "CoorYVal": [
+      0,
+      0
+    ],
+    "CoorZVal": [
+      4000,
+      4000
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      "P__B",
+      "P__B"
+    ],
+    "CoorY": [
+      0,
+      0
+    ],
+    "CoorZ": [
+      "H+H_bear",
+      "H+H_bear"
+    ],
+    "CoorYVal": [
+      0,
+      0
+    ],
+    "CoorZVal": [
+      "#V\u00C6RDI!",
+      "#V\u00C6RDI!"
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      101,
+      101
+    ],
+    "CoorY": [
+      "-W_TOP/2",
+      "-W_TOP/2"
+    ],
+    "CoorZ": [
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-Wbox_Cb/2)",
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-Wbox_Cb/2)"
+    ],
+    "CoorYVal": [
+      -4000,
+      -4000
+    ],
+    "CoorZVal": [
+      "#V\u00C6RDI!",
+      "#V\u00C6RDI!"
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      102,
+      102
+    ],
+    "CoorY": [
+      "-W_TOP/2+L_Cant",
+      "-W_TOP/2+L_Cant"
+    ],
+    "CoorZ": [
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-L_Cant-Wbox_Cb/2)",
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-L_Cant-Wbox_Cb/2)"
+    ],
+    "CoorYVal": [
+      -2000,
+      -2000
+    ],
+    "CoorZVal": [
+      "#V\u00C6RDI!",
+      "#V\u00C6RDI!"
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      103,
+      103
+    ],
+    "CoorY": [
+      "-Wbox_Cb/2",
+      "-Wbox_Cb/2"
+    ],
+    "CoorZ": [
+      "+T_TOP/2",
+      "+T_TOP/2"
+    ],
+    "CoorYVal": [
+      -1500,
+      -1500
+    ],
+    "CoorZVal": [
+      40,
+      40
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      113,
+      113
+    ],
+    "CoorY": [
+      "+Wbox_Cb/2",
+      "+Wbox_Cb/2"
+    ],
+    "CoorZ": [
+      "+T_TOP/2",
+      "+T_TOP/2"
+    ],
+    "CoorYVal": [
+      1500,
+      1500
+    ],
+    "CoorZVal": [
+      40,
+      40
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      111,
+      111
+    ],
+    "CoorY": [
+      "+W_TOP/2",
+      "+W_TOP/2"
+    ],
+    "CoorZ": [
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-Wbox_Cb/2)",
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-Wbox_Cb/2)"
+    ],
+    "CoorYVal": [
+      4000,
+      4000
+    ],
+    "CoorZVal": [
+      "#V\u00C6RDI!",
+      "#V\u00C6RDI!"
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      112,
+      112
+    ],
+    "CoorY": [
+      "+W_TOP/2-L_Cant",
+      "+W_TOP/2-L_Cant"
+    ],
+    "CoorZ": [
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-L_Cant-Wbox_Cb/2)",
+      "+T_TOP/2+tan(p/100)*(W_TOP/2-L_Cant-Wbox_Cb/2)"
+    ],
+    "CoorYVal": [
+      2000,
+      2000
+    ],
+    "CoorZVal": [
+      "#V\u00C6RDI!",
+      "#V\u00C6RDI!"
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      201,
+      201
+    ],
+    "CoorY": [
+      "-W_BOT/2",
+      "-W_BOT/2"
+    ],
+    "CoorZ": [
+      "H-T_BOT/2",
+      "H-T_BOT/2"
+    ],
+    "CoorYVal": [
+      -3000,
+      -3000
+    ],
+    "CoorZVal": [
+      3970,
+      3970
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      202,
+      202
+    ],
+    "CoorY": [
+      "-Wbox_Cb/2",
+      "-Wbox_Cb/2"
+    ],
+    "CoorZ": [
+      "H-T_BOT/2",
+      "H-T_BOT/2"
+    ],
+    "CoorYVal": [
+      -1500,
+      -1500
+    ],
+    "CoorZVal": [
+      3970,
+      3970
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      211,
+      211
+    ],
+    "CoorY": [
+      "+W_BOT/2",
+      "+W_BOT/2"
+    ],
+    "CoorZ": [
+      "H-T_BOT/2",
+      "H-T_BOT/2"
+    ],
+    "CoorYVal": [
+      3000,
+      3000
+    ],
+    "CoorZVal": [
+      3970,
+      3970
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "CrossSection",
+      "CrossSection"
+    ],
+    "Type": [
+      "Pylon",
+      "Pylon"
+    ],
+    "Description": [
+      "Pylo CSB",
+      "Pylo CSB"
+    ],
+    "Name": [
+      "Pyl_CSB",
+      "Pyl_CSB"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "PointName": [
+      212,
+      212
+    ],
+    "CoorY": [
+      "+Wbox_Cb/2",
+      "+Wbox_Cb/2"
+    ],
+    "CoorZ": [
+      "H-T_BOT/2",
+      "H-T_BOT/2"
+    ],
+    "CoorYVal": [
+      1500,
+      1500
+    ],
+    "CoorZVal": [
+      3970,
+      3970
+    ],
+    "SofiCode": [
+      "",
+      ""
+    ]
+  }
+]
