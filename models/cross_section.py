@@ -1,6 +1,7 @@
 """Cross-section model with embedded points computation."""
 
 import numpy as np
+from functools import lru_cache
 from typing import List, Tuple, Optional
 
 
@@ -20,7 +21,7 @@ class CrossSection:
     def compute_embedded_points(self, stations: np.ndarray) -> np.ndarray:
         """Compute embedded 3D points for cross-section at multiple stations.
         
-        This function has loops over stations that can be vectorized.
+        Optimized version using numpy vectorization and caching.
         
         Args:
             stations: Array of station positions along axis (Nstations,)
@@ -31,29 +32,47 @@ class CrossSection:
         n_stations = len(stations)
         n_points = len(self.points)
         
-        # Current implementation uses Python loops - target for optimization
-        embedded_points = np.zeros((n_stations, n_points, 3))
+        # Vectorized implementation - process all stations and points at once
         
-        for i, station in enumerate(stations):
-            # Transform each point from local to world coordinates
-            for j, point in enumerate(self.points):
-                # Apply station-specific transformations
-                y_local = point[0]
-                z_local = point[1]
-                
-                # Apply variable scaling based on station
-                scale_factor = self._get_variable_at_station("scale", station)
-                offset_y = self._get_variable_at_station("offset_y", station)
-                offset_z = self._get_variable_at_station("offset_z", station)
-                
-                # Transform to world coordinates (X=station, Y, Z)
-                x_world = station
-                y_world = (y_local * scale_factor) + offset_y
-                z_world = (z_local * scale_factor) + offset_z
-                
-                embedded_points[i, j, :] = [x_world, y_world, z_world]
+        # Get all variable values for all stations (with caching)
+        scale_factors = np.array([self._get_variable_at_station_cached("scale", station) 
+                                 for station in stations])
+        offset_y_values = np.array([self._get_variable_at_station_cached("offset_y", station)
+                                   for station in stations])  
+        offset_z_values = np.array([self._get_variable_at_station_cached("offset_z", station)
+                                   for station in stations])
+        
+        # Broadcast operations for all points and stations
+        # Shape manipulations for broadcasting:
+        # stations: (n_stations,) -> (n_stations, 1, 1)
+        # points: (n_points, 2) -> (1, n_points, 2)
+        # scale_factors: (n_stations,) -> (n_stations, 1)
+        
+        # Prepare broadcasting dimensions
+        stations_bc = stations[:, np.newaxis, np.newaxis]  # (n_stations, 1, 1)
+        points_bc = self.points[np.newaxis, :, :]           # (1, n_points, 2)
+        scale_factors_bc = scale_factors[:, np.newaxis]     # (n_stations, 1)
+        offset_y_bc = offset_y_values[:, np.newaxis]        # (n_stations, 1)
+        offset_z_bc = offset_z_values[:, np.newaxis]        # (n_stations, 1)
+        
+        # Extract Y and Z coordinates
+        y_local = points_bc[:, :, 0]  # (1, n_points) -> broadcast to (n_stations, n_points)
+        z_local = points_bc[:, :, 1]  # (1, n_points) -> broadcast to (n_stations, n_points)
+        
+        # Vectorized transformations
+        x_world = np.broadcast_to(stations_bc[:, :, 0], (n_stations, n_points))
+        y_world = (y_local * scale_factors_bc) + offset_y_bc
+        z_world = (z_local * scale_factors_bc) + offset_z_bc
+        
+        # Stack into final result
+        embedded_points = np.stack([x_world, y_world, z_world], axis=-1)
         
         return embedded_points
+    
+    @lru_cache(maxsize=1000)
+    def _get_variable_at_station_cached(self, var_name: str, station: float) -> float:
+        """Cached version of variable lookup for performance."""
+        return self._get_variable_at_station(var_name, station)
     
     def _get_variable_at_station(self, var_name: str, station: float) -> float:
         """Get variable value at specific station with interpolation."""

@@ -1,6 +1,7 @@
 """Axis model with coordinate system and frame transformations."""
 
 import numpy as np
+from functools import lru_cache
 from typing import List, Tuple, Optional
 
 
@@ -22,7 +23,7 @@ class Axis:
                                  station_indices: np.ndarray) -> np.ndarray:
         """Embed cross-section points into world coordinate system.
         
-        This function has loops over stations/points that can be vectorized.
+        Optimized version using numpy vectorization and caching.
         
         Args:
             section_points: Local section points (Npoints, 2) in Y-Z plane
@@ -34,22 +35,34 @@ class Axis:
         n_stations = len(station_indices)
         n_points = len(section_points)
         
-        # Current implementation uses Python loops - target for optimization
-        world_points = np.zeros((n_stations, n_points, 3))
+        # Get all frames and coordinates for the requested stations (with caching)
+        frames = np.array([self._get_local_frame_cached(idx) for idx in station_indices])
+        station_coords = self.coordinates[station_indices]
         
-        for i, station_idx in enumerate(station_indices):
-            # Get local coordinate frame at this station
-            frame = self._get_local_frame(station_idx)
-            station_coord = self.coordinates[station_idx]
-            
-            # Transform each section point to world coordinates
-            for j, section_point in enumerate(section_points):
-                # Local point in section plane (0, Y, Z)
-                local_point = np.array([0.0, section_point[0], section_point[1]])
-                
-                # Transform to world coordinates using local frame
-                world_point = station_coord + frame @ local_point
-                world_points[i, j, :] = world_point
+        # Prepare section points in 3D (add zero X component)
+        # Shape: (n_points, 3)
+        local_points_3d = np.column_stack([
+            np.zeros(n_points),  # X = 0 for section points  
+            section_points[:, 0],  # Y coordinates
+            section_points[:, 1]   # Z coordinates
+        ])
+        
+        # Vectorized transformation using broadcasting
+        # frames: (n_stations, 3, 3)
+        # local_points_3d: (n_points, 3) -> need (1, n_points, 3) for broadcasting
+        # station_coords: (n_stations, 3) -> need (n_stations, 1, 3) for broadcasting
+        
+        local_points_bc = local_points_3d[np.newaxis, :, :]  # (1, n_points, 3)
+        station_coords_bc = station_coords[:, np.newaxis, :]  # (n_stations, 1, 3)
+        
+        # Apply frame transformation: frame @ local_point for each station and point
+        # Using Einstein summation for efficient matrix multiplication
+        # frames: (n_stations, 3, 3), local_points_bc: (1, n_points, 3)
+        # Result: (n_stations, n_points, 3)
+        transformed_points = np.einsum('sij,spj->spi', frames, local_points_bc)
+        
+        # Add station coordinates
+        world_points = transformed_points + station_coords_bc
         
         return world_points
     
@@ -57,7 +70,7 @@ class Axis:
                                 end_station: int) -> np.ndarray:
         """Compute parallel transport of coordinate frames along axis.
         
-        This function has loops that can be vectorized.
+        Optimized version using numpy vectorization and caching.
         
         Args:
             start_station: Starting station index
@@ -66,29 +79,38 @@ class Axis:
         Returns:
             Transported frames (Nstations, 3, 3)
         """
-        station_range = range(start_station, end_station + 1)
-        n_stations = len(station_range)
+        station_indices = np.arange(start_station, end_station + 1)
+        n_stations = len(station_indices)
         
-        # Current implementation uses Python loops - target for optimization  
+        # Vectorized implementation - process all stations at once where possible
         frames = np.zeros((n_stations, 3, 3))
         
-        # Initial frame at start station
-        frames[0] = self._get_local_frame(start_station)
+        # Initial frame at start station (use cached version)
+        frames[0] = self._get_local_frame_cached(start_station)
         
-        for i, station_idx in enumerate(station_range[1:], 1):
-            prev_station = station_range[i-1]
-            
-            # Compute transport from previous station
+        if n_stations == 1:
+            return frames
+        
+        # Get all direction vectors at once (vectorized)
+        station_coords = self.coordinates[station_indices]
+        directions = np.diff(station_coords, axis=0)  # (n_stations-1, 3)
+        
+        # Vectorized parallel transport
+        for i in range(1, n_stations):
             prev_frame = frames[i-1]
+            direction = directions[i-1]
             
-            # Get direction vector between stations
-            direction = self._get_station_direction(prev_station, station_idx)
-            
-            # Apply parallel transport (simplified)
-            transported_frame = self._transport_frame(prev_frame, direction)
+            # Apply parallel transport (can't fully vectorize due to dependency)
+            # But we can optimize the inner transport computation
+            transported_frame = self._transport_frame_optimized(prev_frame, direction)
             frames[i] = transported_frame
         
         return frames
+    
+    @lru_cache(maxsize=500)
+    def _get_local_frame_cached(self, station_idx: int) -> np.ndarray:
+        """Cached version of local frame computation for performance."""
+        return self._get_local_frame(station_idx)
     
     def _get_local_frame(self, station_idx: int) -> np.ndarray:
         """Get local coordinate frame at station (expensive computation)."""
@@ -164,6 +186,41 @@ class Axis:
             return R @ frame
         
         return frame
+
+    def _transport_frame_optimized(self, frame: np.ndarray, direction: np.ndarray) -> np.ndarray:
+        """Optimized version of transport coordinate frame along direction vector."""
+        # Normalize direction with safe handling for zero vectors
+        direction_norm = np.linalg.norm(direction)
+        if direction_norm < 1e-10:
+            return frame.copy()
+        
+        direction_normalized = direction / direction_norm
+        
+        # Apply small rotation based on direction change
+        rotation_angle = direction_norm * 0.01
+        rotation_axis = np.cross(frame[:, 0], direction_normalized)
+        
+        axis_norm = np.linalg.norm(rotation_axis)
+        if axis_norm < 1e-10:
+            return frame.copy()
+        
+        rotation_axis = rotation_axis / axis_norm
+        
+        # Optimized Rodrigues' formula using numpy operations
+        cos_angle = np.cos(rotation_angle)
+        sin_angle = np.sin(rotation_angle)
+        
+        # Cross-product matrix for rotation axis (skew-symmetric matrix)
+        K = np.array([
+            [0, -rotation_axis[2], rotation_axis[1]],
+            [rotation_axis[2], 0, -rotation_axis[0]],
+            [-rotation_axis[1], rotation_axis[0], 0]
+        ])
+        
+        # Rodrigues' formula: R = I + sin(θ)K + (1-cos(θ))K²
+        # Using numpy operations for efficiency
+        R = np.eye(3) + sin_angle * K + (1 - cos_angle) * (K @ K)
+        return R @ frame
 
 
 def create_test_axis(n_stations: int = 200) -> Axis:
