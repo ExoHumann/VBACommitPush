@@ -1,9 +1,0 @@
-setup.py
-vbacommitpush/__init__.py
-vbacommitpush/main.py
-vbacommitpush/spotviso.py
-vbacommitpush.egg-info/PKG-INFO
-vbacommitpush.egg-info/SOURCES.txt
-vbacommitpush.egg-info/dependency_links.txt
-vbacommitpush.egg-info/entry_points.txt
-vbacommitpush.egg-info/top_level.txt

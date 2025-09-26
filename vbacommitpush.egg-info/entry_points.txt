@@ -1,3 +1,0 @@
-[console_scripts]
-spotviso = vbacommitpush.spotviso:main
-vbacommitpush = vbacommitpush.main:main
