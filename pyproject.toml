@@ -27,6 +27,8 @@ dev = [
     "black",
     "flake8",
     "mypy",
+    "isort",
+    "pre-commit",
 ]
 
 [project.scripts]

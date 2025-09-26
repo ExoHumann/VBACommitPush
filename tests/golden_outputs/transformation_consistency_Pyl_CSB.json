@@ -1,0 +1,134 @@
+{
+  "coordinate_system_local": "local",
+  "coordinate_system_world": "world",
+  "local_point_count": 25,
+  "section_name": "Pyl_CSB",
+  "transformation_differences": [
+    {
+      "point_name": 0,
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": 101,
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": 102,
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": 103,
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": 111,
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": 112,
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": 113,
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": 201,
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": 202,
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": 211,
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": 212,
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": "B01",
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": "B02",
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": "B51",
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": "B52",
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": "BOT",
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": "C00",
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": "C01",
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": "C02",
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": "P__00",
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": "P__B",
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": "TOP",
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": "X00",
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": "X01",
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    },
+    {
+      "point_name": "X02",
+      "y_diff": 0.0,
+      "z_diff": 100.0
+    }
+  ],
+  "world_point_count": 25
+}

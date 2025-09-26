@@ -1,0 +1,17 @@
+# CODEOWNERS file for SPOT_VISO
+
+# Global owners
+* @ExoHumann
+
+# Core system files
+pyproject.toml @ExoHumann
+.github/ @ExoHumann
+.pre-commit-config.yaml @ExoHumann
+
+# Source code
+spot/ @ExoHumann
+tests/ @ExoHumann
+
+# Documentation
+README.md @ExoHumann
+*.md @ExoHumann
