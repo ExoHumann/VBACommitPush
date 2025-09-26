@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vbacommitpush"
+version = "0.1.0"
+description = "VBA Commit Push - Structural analysis tools"
+authors = [{name = "VBA Team"}]
+dependencies = [
+    "numpy>=1.20.0",
+    "pytest>=6.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest-cov",
+    "black",
+    "flake8",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "smoke: smoke tests",
+]
