@@ -48,8 +48,7 @@ def embed_section_points_world_symmetric(
     """
     Embed section points into world coordinates using symmetric transformation.
     
-    This function has a known broadcasting error when handling minimal axis + section
-    combinations that needs to be fixed.
+    Fixed version that handles broadcasting correctly.
     
     Args:
         axis: Axis object with variables
@@ -65,42 +64,41 @@ def embed_section_points_world_symmetric(
         
     # Get axis variables for transformation
     try:
-        # This is where the bug occurs - broadcasting issue with minimal data
-        H = axis.get_variable_value('H', station)  # Height
+        H = axis.get_variable_value('H', station)  # Height - always a scalar
         
-        # BUG: Attempt to use vectorized operations but with incorrect broadcasting
-        # This creates shape mismatch errors with certain axis + section combinations
+        # Extract coordinates properly
         y_coords = section_points[:, 0]  # Shape: (N,)
         z_coords = section_points[:, 1]  # Shape: (N,)
         
-        # Try to get additional axis parameters that may not exist
+        # Get additional axis parameters, ensuring they are scalars
         try:
-            # These may return scalars or arrays, causing broadcasting issues
-            offset_y = axis.get_variable_value('offset_y', station)  # May not exist
-            offset_z = axis.get_variable_value('offset_z', station)  # May not exist
+            offset_y = axis.get_variable_value('offset_y', station)
+            offset_z = axis.get_variable_value('offset_z', station)
         except KeyError:
-            # Set defaults, but with wrong shapes that cause broadcasting errors
-            offset_y = np.array([[0.0]])  # Shape: (1,1) - WRONG! Causes broadcasting issue
-            offset_z = np.array([[0.0]])  # Shape: (1,1) - WRONG! Causes broadcasting issue
+            # FIX: Use scalar defaults instead of arrays to prevent broadcasting issues
+            offset_y = 0.0  # Scalar, not array
+            offset_z = 0.0  # Scalar, not array
         
-        # BROADCASTING BUG: These operations fail when shapes don't match
-        # y_coords is (N,), offset_y is (1,) - this works
-        # but when we try to assign back to world_points, shapes mismatch
-        world_y = y_coords + offset_y  # May work or fail depending on offset_y shape
-        world_z = z_coords + offset_z + H  # Broadcasting error here!
+        # FIX: All operations now work with proper broadcasting
+        # y_coords (N,) + offset_y (scalar) = (N,)
+        # z_coords (N,) + offset_z (scalar) + H (scalar) = (N,)
+        world_y = y_coords + offset_y  # Proper broadcasting: (N,) + scalar = (N,)
+        world_z = z_coords + offset_z + H  # Proper broadcasting: (N,) + scalar + scalar = (N,)
         
-        # BUG: Try to stack with potentially mismatched shapes
-        # This line causes the actual broadcasting error
-        try:
-            world_points = np.column_stack([world_y, world_z])  # FAILS HERE when shapes don't match
-        except ValueError as ve:
-            # Convert numpy ValueError to RuntimeError to indicate broadcasting issue
-            raise RuntimeError(f"Broadcasting error in embed_section_points_world_symmetric: {ve}")
+        # FIX: column_stack with two (N,) arrays produces (N, 2) as expected
+        world_points = np.column_stack([world_y, world_z])  # (N,) + (N,) -> (N, 2)
+        
+        # Validate output shape
+        assert world_points.shape == section_points.shape, \
+            f"Output shape mismatch: {world_points.shape} != {section_points.shape}"
+        
+        # Validate finite values
+        if not np.all(np.isfinite(world_points)):
+            raise ValueError("Transformation resulted in non-finite values")
             
     except KeyError as ke:
         raise RuntimeError(f"Broadcasting error in embed_section_points_world_symmetric: Missing axis variable: {ke}")
     except Exception as e:
-        # This catches other broadcasting errors
         raise RuntimeError(f"Broadcasting error in embed_section_points_world_symmetric: {e}")
     
     return world_points
