@@ -1,0 +1,31 @@
+name: Validate Agent PR
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+    
+    - name: Install package in development mode
+      run: |
+        pip install -e .
+    
+    - name: Run spotviso check
+      run: |
+        spotviso check
+    
+    - name: Run spotviso smoke tests
+      run: |
+        spotviso test -m smoke
