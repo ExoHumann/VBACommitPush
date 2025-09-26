@@ -1,0 +1,8 @@
+numpy
+plotly
+scipy
+jinja2
+matplotlib
+
+[optional]
+orjson

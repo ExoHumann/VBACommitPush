@@ -1,0 +1,1 @@
+"""SpotViso application module."""

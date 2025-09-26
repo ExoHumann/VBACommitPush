@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spotviso"
+version = "0.1.0"
+description = "SpotViso - A data visualization tool"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "plotly",
+    "scipy",
+    "jinja2",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+optional = ["orjson"]
+
+[project.scripts]
+spotviso = "spot.app.cli:main"
